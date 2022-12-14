@@ -1,4 +1,4 @@
-# Frontend-wook002
+# Frontend-work002
 
 ![319857990_855244272344344_6528814636633123729_n](https://user-images.githubusercontent.com/86364342/207651025-9e75002b-0532-4885-80b9-6951259cefc1.png)
 # ปัญหา
