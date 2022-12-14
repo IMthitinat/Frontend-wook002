@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="stylesheet" type="text/css" href="hero-section.css" />
+	<link rel="stylesheet" type="text/css" href="navbar.css" />
+	<link rel="stylesheet" type="text/css" href="article.css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet"
+	/>
 </head>
 <body>
-    <div class="container">
-        <img src="Giovanni.jpg" alt="Snow" style="width: 375px; height: 1024px;">
-        <div class="top-left">ARTJUNKS</div>
-        <div class="nav">
-            <div class="top-right">
-                <div class="ham"></div>
-                <div class="ham"></div>
-                <div class="ham"></div>
-            </div>    
-        </div>
-        <div class="centered">
-            <div class="ham2"></div>
-            <div class="p1">Art pieces made<br/>easy accessible<br/>for everyone</div>
-            <p class="p2"> Learn, buy and trade art pieces of<br/>your favorite artist around the world<br/>by using crypto currencies.</p>
-            <button class="button01">Learn more</button>
-        </div> 
-    </div>
+	<nav>
+		<div class="navbar">
+			<img src="/assets/logo.svg" alt="site-logo" />
 
-    <div class="new">
-        <div class="newest">Newest reads</div>
-        <div class="card card1">
-            <img src="pic01.png" alt="pic01" style="width:100%">
-            <div class="container01">
-                <p4>5 August, 2022</p4> 
-                <h4><b>France seeks to protect<br/>Russia's Morozov<br/>collection from seizure<br/>as masterpices return<br/>home</b></h4> 
-            </div>
-        </div>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</nav>
 
-        <div class="card card1">
-            <img src="pic02.png" alt="pic01" style="width:100%">
-            <div class="container01">
-                <p4>5 August, 2022</p4> 
-                <h4><b>Picasso's muse as sea<br/>creature--will it break<br/>S100m at Sotheby's New<br/>York sale?</b></h4> 
-            </div>
-        </div>
+	<div class="hero-section">
+		<div class="hero-text-box">
+			<div class="rect"></div>
+			<p class="hero-title">Art pieces made easy accessible for everyone</p>
+			<p class="hero-sub-title">
+				Learn, buy and trade art pieces of your favorite artist around the world
+				by using crypto currencies.
+			</p>
+			<button class="hero-button">Learn more</button>
+		</div>
+	</div>
 
-        <div class="card card1">
-            <img src="pic03.png" alt="pic01" style="width:100%">
-            <div class="container01">
-                <p4>5 August, 2022</p4> 
-                <h4><b>venice<br/>Biennale 2022: all<br/>the national pavilions,<br/>artists and curators</h4> 
-            </div>
-        </div>
+	<div class="article-section">
+		<p class="article-section-title">Newest reads</p>
 
-    </div>
-    
+		<div class="article-card-wrapper">
+			<div class="article-card">
+				<img src="/assets/art-1.png" alt="art-1" class="article-image" />
+				<div class="article-body">
+					<p class="article-date">5 August, 2022</p>
+					<p class="article-title">
+						France seeks to protect Russia's Morozov collection from seizure as
+						masterpieces return home
+					</p>
+					<button class="read-more-button">Read more -></button>
+				</div>
+			</div>
 
+			<div class="article-card">
+				<img src="/assets/art-2.png" alt="art-1" class="article-image" />
+				<div class="article-body">
+					<p class="article-date">5 August, 2022</p>
+					<p class="article-title">
+						Picasso’s muse as sea creature—will it break $100m at Sotheby's New
+						York sale?
+					</p>
+					<button class="read-more-button">Read more -></button>
+				</div>
+			</div>
 
-
+			<div class="article-card">
+				<img src="/assets/art-3.png" alt="art-1" class="article-image" />
+				<div class="article-body">
+					<p class="article-date">5 August, 2022</p>
+					<p class="article-title">
+						Venice Biennale 2022: all the national pavilions, artists and
+						curators
+					</p>
+					<button class="read-more-button">Read more -></button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>

@@ -1,0 +1,29 @@
+nav {
+	position: absolute;
+	top: 32px;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	gap: 8px;
+	padding: 0 32px;
+}
+
+.hamburger {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+
+.hamburger > span {
+	width: 26px;
+	height: 3px;
+	border-radius: 4px;
+	background: white;
+}
